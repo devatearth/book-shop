@@ -1,0 +1,29 @@
+.authorDetailsWrapper {
+    margin: auto !important;
+    width: 80% !important;
+}
+img.authorDetailsImg {
+    padding: 0px !important;
+    width: 150px;
+    height: 250px;
+}
+.authorDetailsDesc{
+    text-align: left !important;
+}
+.authorDetailsWrapper {
+    margin: auto !important;
+    width: 80% !important;
+    border: 1px solid lightgray;
+    padding: 20px 0px;
+    border-radius: 9px;
+    /* box-shadow: 7px 5px 9px -4px #3333; */
+}
+.authorDetailsnameAu {
+    font-size: 2em;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+.authorDetailsDes {
+    font-weight: 600;
+    overflow: hidden;
+}

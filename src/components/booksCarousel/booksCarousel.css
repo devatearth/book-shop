@@ -1,0 +1,32 @@
+.BooksCarouselMain {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    border: 1px solid lightgray;
+    padding: 25px 11px;
+    position: relative;
+}
+.BooksCarouselMain .carousel-slider,.BooksCarouselMain .slider-wrapper,.BooksCarouselMain .slider-wrapper .slider{
+    height: 100%;;
+}
+.BooksCarouselMain .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black !important;
+}
+.BooksCarouselMain .carousel .control-next.control-arrow:before {
+    border-left: 8px solid black !important;
+}
+.BooksCarouselMain .carousel.carousel-slider .control-arrow{
+    background-color: white !important;
+}
+.BooksCarouselMain .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    opacity: 1 !important;
+}
+.BooksCarouselMain  .thumbs-wrapper.axis-vertical{
+    display: none !important;
+}
+.bookCarouselItems {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding-top: 17px;
+}

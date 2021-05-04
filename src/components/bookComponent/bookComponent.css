@@ -1,0 +1,89 @@
+.bookCarouselItemDiv_book {
+    width: 80px !important;
+}
+.bookCarouselItemDiv {
+    width: 19%;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    height: 308px;
+    position: relative;
+    cursor: pointer;
+}
+.bookCarouselItemDiv_topWrap {
+    padding: 17px 3px 12px 4px;
+    height: 60%;
+}
+.bookCarouselItemDiv_name {
+    font-weight: 600;
+    margin-top: 9px;
+    text-align: center;
+}
+.bookCarouselItemDiv_bottomWrap {
+    height: 40%;
+    background-color: hsl(240deg 4% 95%);
+
+}
+.bookCarouselItemDiv_Yr {
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 14%;
+    padding-top: 8px;
+}
+.bookCarouselItemDiv_Price {
+    font-weight: 600;
+    color: hsl(128deg 52% 47%);
+    font-size: 1.3em;
+}
+.bookCarouselItemDiv_new {
+    position: absolute;
+    right: -7px;
+    top: -13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    font-size: .6em;
+    line-height: 30px;
+    color: white;
+    font-weight: 600;
+}
+.showOnBookHover{
+    display: none;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.bookCarouselItemDiv:hover .hideOnBookHover{
+    display: none !important;
+}
+.bookCarouselItemDiv:hover .showOnBookHover{
+    display: block !important;
+}
+.hoverBookiconzDiv {
+    line-height: 30px;
+    position: absolute;
+    left: 37%;
+    margin-top: -70px;
+    /* width: 100%; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #3cb54c;
+    color: white;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+svg.hoverBookiconzIcon {
+    font-size: 1.4em;
+}
+.bookHoverDescr{
+    background: #3cb54c;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: .8em;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}

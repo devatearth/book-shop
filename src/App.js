@@ -1,8 +1,8 @@
 import "./App.css";
-import Login from "./Screens/login/Login";
-import Author from './Screens/author/Author'
-import AuthorDetails from './Screens/authorDetails/AuthorDetails'
-import Guest from './Screens/guest/Guest'
+import Login from "./pages/login/login";
+import Author from './pages/author/author'
+import AuthorDetails from './pages/authorDetails/authorDetails'
+import Guest from './pages/guest/guest'
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (

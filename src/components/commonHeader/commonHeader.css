@@ -1,0 +1,13 @@
+.commonHeader {
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 49px;
+    align-items: center;
+    box-shadow: 1px 2px 5px #3333;
+    margin-bottom: 20px;
+  }
+  .commonHeader *{
+      font-weight:600;
+  }

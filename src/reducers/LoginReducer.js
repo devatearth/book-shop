@@ -1,3 +1,5 @@
+import {AUTHETICATION} from '../dispatchRefs';
+
 
 const initialState = {
     currentUsername : "",
@@ -16,7 +18,7 @@ const initialState = {
 }
 const loginReducer = (state = initialState,action) =>{
     switch(action.type){
-        case 'AUTHETICATION' : 
+        case AUTHETICATION : 
         const {username, password} = action.payload;
         if(username === state.admin.username && password === state.admin.password){
             return {

@@ -1,0 +1,62 @@
+.cardContainer {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    gap: 10px;
+    grid-auto-rows: auto;
+    width: 80%;
+    margin: auto !important;
+    /* margin-left: auto !important; */
+}
+
+.authorHead {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto !important;
+    align-items: center;
+    margin-bottom: 30px !important;
+}
+.authorHead_SearchInp,.authorHead_Filter,.authorHead_Title{
+    flex-grow: 1;
+}
+.authorHead_Title {
+    text-align: left;
+    padding-left: 16px;
+    font-weight: 700;
+    width: 180px;
+}
+.authorHead_Search {
+    width: 397px;
+    /* border-radius: 50% !important; */
+    position: relative;
+}
+.authorHead_SearchInp {
+    border-radius: 28px;
+    height: 38px;
+}
+.authorHead_SearchInp {
+    border-radius: 28px !important;
+    height: 38px !important;
+    border: 1px solid lightgray !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+.authorHead_SearchIcon{
+    position: absolute;
+    right: 17px;
+    top: 12px;
+}
+.FilterButton {
+    width: 112px !important;
+    height: 39px !important;
+    line-height: 12px !important;
+    border-radius: 23px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.authorFilterButton:hover{
+    color: black !important;
+    background-color: white !important;
+    border:1px solid black !important
+}

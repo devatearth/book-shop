@@ -1,0 +1,46 @@
+.bookheader_backicon {
+    font-size: 1.5em;
+    margin-right: 11px;
+    cursor: pointer;
+}
+.carouselAddnewBookIcon {
+    position: absolute;
+    right: 8.5%;
+    /* top: 0px; */
+    margin-top: -26px;
+    background: white;
+    border-radius: 50%;
+}
+.carouselAddnewBookIcon_plus{
+    font-size: 4em;
+    color: #f0582a;
+    cursor: pointer;
+}
+.authorDetailszbookshead {
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.addBookModalBtn {
+    width: 165px;
+    font-size: .9em !important;
+    text-transform: initial;
+    height: 35px !important;
+    line-height: 35px !important;
+    padding: 0px 0px !important;
+    border-radius: 12px;
+    margin-left: 10%;
+}
+.addBookModalBtn_submit {
+    background-color: #f0582a !important;
+    color: white;
+}
+.addBookModalBtn_cancel {
+    border: 1px solid #f0582a !important;
+}
