@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import { Row, Col, Overlay, Popover } from "react-bootstrap";
 import { useState } from "react";
 import {useSelector, useDispatch} from 'react-redux';
-import {AUTHETICATION} from '../../dispatchRefs';
 import authenticate from '../../actions/loginActions';
 import {useHistory} from 'react-router-dom';
 

@@ -164,12 +164,11 @@ function AuthorDetails() {
         />
       </span>
 
-      {/* onHide={handleClose}  */}
       <Modal show={showModal} animation={false} onHide={handleClose} centered>
         <Modal.Body>
           <Form onSubmit={submitBook}>
             <Form.Group as={Row} controlId="formPlaintextEmail">
-              <Form.Label column sm="2">
+              <Form.Label column sm="3">
                 Book title
               </Form.Label>
               <Col sm="10">
