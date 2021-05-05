@@ -1,4 +1,4 @@
-import {books,authors } from "../data/data";
+import {books,authors } from "../data/Data";
 import {GET_ALL_BOOKS,GET_FILTER_BOOK_AUTHOR} from '../dispatchRefs'
 const initialState = {
     books : books,

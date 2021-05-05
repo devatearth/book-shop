@@ -1,5 +1,5 @@
 import {GET_AUTHORS,GET_AUTHOR_BOOKS,GET_FILTERED_AUTHOR,RESET_AUTHOR_FILTER,SET_AUTHOR_SEARCH_KEYWORD} from '../dispatchRefs';
-import { authors} from "../data/data"
+import { authors} from "../data/Data.js"
 export const getAuthors=()=> async (dispatch)=>{
     dispatch({type : GET_AUTHORS});
 }

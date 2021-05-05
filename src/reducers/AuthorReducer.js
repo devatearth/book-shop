@@ -1,4 +1,4 @@
-import { authors, books } from "../data/data";
+import { authors, books } from "../data/Data";
 import {
   GET_AUTHORS,
   GET_AUTHOR_BOOKS,

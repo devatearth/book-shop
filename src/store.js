@@ -1,6 +1,6 @@
 import {createStore,applyMiddleware, combineReducers} from 'redux';
-import loginReducer from './reducers/loginReducer';
-import authorReducer from './reducers/authorReducer';
+import loginReducer from './reducers/LoginReducer';
+import authorReducer from './reducers/AuthorReducer';
 import GuestReducer from './reducers/guestreducer'
 import thunk from 'redux-thunk';
 const reducersCombined = combineReducers({

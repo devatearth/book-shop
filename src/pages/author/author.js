@@ -7,7 +7,7 @@ import {
   applyAuthorFilterAction,
   resetAuthorFilterAction,
   setAuthorSearchKeywordAction
-} from "../../actions/authorActions";
+} from "../../actions/AuthorActions";
 import AuthorCard from "../../components/authorCard/authorCard";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import CommonHeader from "../../components/commonHeader/commonHeader";
